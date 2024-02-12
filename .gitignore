@@ -1,0 +1,7 @@
+./artifacts
+./cache
+./tmp
+./deploy.json
+hardhat_build/
+node_modules/
+.env

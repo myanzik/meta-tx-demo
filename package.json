@@ -1,0 +1,34 @@
+{
+  "name": "@itn/evm-contracts",
+  "version": "0.1.0",
+  "description": "DID anchor smart contracts",
+  "author": "https://rumsan.com",
+  "scripts": {
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage",
+    "test:parallel": "hardhat test --parallel",
+    "test": "hardhat test",
+    "test:deploy": "node scripts/deploy.js",
+    "prettier": "prettier --write 'src/contracts/**/*.sol'",
+    "docgen": "hardhat docgen",
+    "clean": "sh ./scripts/clean.sh",
+    "deploy:arbiSepolia": "hardhat run scripts/deploy.js --network arbiSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "3.0.0",
+    "@nomicfoundation/hardhat-verify": "2.0.3",
+    "@openzeppelin/contracts": "5.0.1",
+    "chai": "^4.3.7",
+    "ethers": "6.10.0",
+    "hardhat": "2.19.5",
+    "prettier": "2.8.3",
+    "prettier-plugin-solidity": "1.1.1",
+    "solidity-coverage": "0.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "solidity-docgen": "0.6.0-beta.36",
+    "@openzeppelin/defender-relay-client": "1.54.1"
+  }
+}
