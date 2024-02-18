@@ -1,7 +1,7 @@
 {
-  "name": "@itn/evm-contracts",
+  "name": "evm-contracts",
   "version": "0.1.0",
-  "description": "DID anchor smart contracts",
+  "description": "meta-tx-demo",
   "author": "https://rumsan.com",
   "scripts": {
     "compile": "hardhat compile",
